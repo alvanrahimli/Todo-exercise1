@@ -1,0 +1,14 @@
+/home/alvan/Projects/ToDo-exercise1/bin/Debug/netcoreapp2.2/ToDo-exercise1.deps.json
+/home/alvan/Projects/ToDo-exercise1/bin/Debug/netcoreapp2.2/ToDo-exercise1.runtimeconfig.json
+/home/alvan/Projects/ToDo-exercise1/bin/Debug/netcoreapp2.2/ToDo-exercise1.runtimeconfig.dev.json
+/home/alvan/Projects/ToDo-exercise1/bin/Debug/netcoreapp2.2/ToDo-exercise1.dll
+/home/alvan/Projects/ToDo-exercise1/bin/Debug/netcoreapp2.2/ToDo-exercise1.pdb
+/home/alvan/Projects/ToDo-exercise1/obj/Debug/netcoreapp2.2/ToDo-exercise1.csprojAssemblyReference.cache
+/home/alvan/Projects/ToDo-exercise1/obj/Debug/netcoreapp2.2/ToDo-exercise1.csproj.CoreCompileInputs.cache
+/home/alvan/Projects/ToDo-exercise1/obj/Debug/netcoreapp2.2/ToDo-exercise1.RazorAssemblyInfo.cache
+/home/alvan/Projects/ToDo-exercise1/obj/Debug/netcoreapp2.2/ToDo-exercise1.RazorAssemblyInfo.cs
+/home/alvan/Projects/ToDo-exercise1/obj/Debug/netcoreapp2.2/ToDo-exercise1.AssemblyInfoInputs.cache
+/home/alvan/Projects/ToDo-exercise1/obj/Debug/netcoreapp2.2/ToDo-exercise1.AssemblyInfo.cs
+/home/alvan/Projects/ToDo-exercise1/obj/Debug/netcoreapp2.2/ToDo-exercise1.RazorTargetAssemblyInfo.cache
+/home/alvan/Projects/ToDo-exercise1/obj/Debug/netcoreapp2.2/ToDo-exercise1.dll
+/home/alvan/Projects/ToDo-exercise1/obj/Debug/netcoreapp2.2/ToDo-exercise1.pdb

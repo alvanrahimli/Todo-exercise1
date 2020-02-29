@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/alvan/Projects/ToDo-exercise1/ToDo-exercise1.csproj": {}
+  },
+  "projects": {
+    "/home/alvan/Projects/ToDo-exercise1/ToDo-exercise1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alvan/Projects/ToDo-exercise1/ToDo-exercise1.csproj",
+        "projectName": "ToDo-exercise1",
+        "projectPath": "/home/alvan/Projects/ToDo-exercise1/ToDo-exercise1.csproj",
+        "packagesPath": "/home/alvan/.nuget/packages/",
+        "outputPath": "/home/alvan/Projects/ToDo-exercise1/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/alvan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
