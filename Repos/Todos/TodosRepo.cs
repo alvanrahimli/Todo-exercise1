@@ -83,15 +83,20 @@ namespace ex1_ToDo.Repos.Todos
             return todoReturn;
         }
 
-        public async Task<List<Todo>> GetTodos(int rn, int c, string email)
+        public async Task<List<TodoReturnDto>> GetTodos(int rn, int c, string email)
         {
-            // Does not include items
-            var todos = await _context.Todos
-                .Where(t => t.Author.NormalizedEmail == email.ToLower())
-                .Skip((rn - 1) * c)
-                .Take(c)
-                .OrderByDescending(t => t.Priority)
-                .ToListAsync();
+            // Do not include items
+            var todos = await (from todo in _context.Todos
+                               where todo.Author.NormalizedEmail == email.ToLower()
+                               orderby todo.Priority
+                               select new TodoReturnDto
+                               {
+                                   Id = todo.Id,
+                                   Header = todo.Header,
+                                   CreatedTime = todo.CreatedTime,
+                                   Priority = todo.Priority,
+                                   Items = null
+                               }).Skip((rn - 1) * c).Take(c).ToListAsync();
 
             return todos;
         }

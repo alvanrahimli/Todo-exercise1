@@ -7,7 +7,7 @@ namespace ex1_ToDo.Repos.Todos
 {
     public interface ITodosRepo
     {
-        Task<List<Todo>> GetTodos(int rn, int c, string email);
+        Task<List<TodoReturnDto>> GetTodos(int rn, int c, string email);
         Task<TodoReturnDto> GetTodo(int id, string email);
         Task<bool> CreateTodo(TodoCreateDto todo, string email);
         Task<bool> UpdateTodo(TodoUpdateDto todo, string email);
