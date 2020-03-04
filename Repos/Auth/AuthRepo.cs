@@ -94,7 +94,6 @@ namespace ToDo_exercise1.Repos.Auth
 
         private async Task<UserDto> AuthenticateUser(UserLogin loginCreds)
         {
-            var test = Helper.ComputeHash(loginCreds.Password);
             var usr = await _context.Users
                 .FirstOrDefaultAsync(u => loginCreds.IsEmail
                 ? u.NormalizedEmail == loginCreds.Parameter.ToLower()
